@@ -1,0 +1,1 @@
+my $var = undef;if ($var eq 'something') {print "This will not print";}
