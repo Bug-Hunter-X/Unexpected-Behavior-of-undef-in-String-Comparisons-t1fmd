@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Perl related to comparing undef values in string contexts.  The script 'bug.pl' shows the incorrect comparison that always evaluates to false even when you might expect it to evaluate to true if the variable was an empty string.  'bugSolution.pl' provides the correct way to handle such comparisons using defined().
